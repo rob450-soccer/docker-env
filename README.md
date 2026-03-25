@@ -3,7 +3,7 @@
 This is a docker environment for running the sim. It has been tested running on MAC m1 and on Windows WSL
 
 ## Setup
-start by pulling the relevant repos from github into this dir
+start by cloning the relevant repos from github into this dir
 
 - obstacles
 - passing
