@@ -1,0 +1,13 @@
+services:
+  test:
+    build: .
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=:1
+    ports:
+      - "5901:5901"
+    volumes:
+      - ./passing:/root/dev/passing
+      - ./RCSSServerMJ:/root/dev/RCSSServerMJ
+      - ./obstacles:/root/dev/obstacles
