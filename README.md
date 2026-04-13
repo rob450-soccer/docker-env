@@ -23,8 +23,8 @@ once inside the docker env go through the normal process of building the hatch e
 ## Getting Display working
 ### VNC
 
-the dockerfile has a vnc already installed you can activate it by running `vncpasswd` then `
-vncserver :1 -geometry 1280x800 -depth 24 -SecurityTypes VncAuth -localhost no`
+the dockerfile has a vnc already installed you can activate it by running `vncpasswd` then 
+`vncserver :1 -geometry 1280x800 -depth 24 -SecurityTypes VncAuth -localhost no`
 
 this will route all GUIs to the VNC which can then be viewed with an app like VNC viewer.
 

@@ -7,7 +7,9 @@ services:
       - DISPLAY=:1
     ports:
       - "5901:5901"
+      - "8765:8765"
     volumes:
       - ./passing:/root/dev/passing
       - ./RCSSServerMJ:/root/dev/RCSSServerMJ
       - ./obstacles:/root/dev/obstacles
+    shm_size: '512mb'
